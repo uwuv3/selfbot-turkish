@@ -18,7 +18,8 @@ client.on("messageCreate", async message => {
     "selam",
     "s.a",
     "s.a.",
-    "sa."
+    "sa.",
+    "Selamün aleyküm"
   ];
   let OtoCevap;
   if (message.channel.type === "DM") {
