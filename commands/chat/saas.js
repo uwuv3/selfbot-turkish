@@ -6,11 +6,12 @@ module.exports = {
   name: "saas",
   aliases: ["sa-as"],
   run: async (client, message, args) => {
-    if (!global.config.admin.includes(message.author.id))
-      return message.reply({
+     if (!global.config.admin.includes(message.author.id) && !message.member.permissions.has("ADMINISTRATOR")) {
+         return message.reply({
         content: "Bu komut **bot yetkilerine** özel!",
         allowedMentions: { repiledUser: false },
-      });
+      })
+    }
     else {
       let x = db.fetch(`saas_${message.guild.id}`);
       if (x) {
