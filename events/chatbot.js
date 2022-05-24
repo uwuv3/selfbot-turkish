@@ -32,7 +32,8 @@ client.on("messageCreate", async message => {
     ];
     if (sa.includes(x)) return;
     
-    let y = soru.replace("?", "");
+    let y = soru.replace("?", "؟");
+    if(!y) y= "ne yazayım"
     ai.sor(y).then(uwu => {
       var msj = uwu
         .replace("codere.fun", `**website**`)
