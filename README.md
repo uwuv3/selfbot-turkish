@@ -27,5 +27,5 @@ Yapımcı : <img src="https://cdn.discordapp.com/emojis/889092230063734795.png" 
 # [![Fork on Replit](https://img.shields.io/badge/REPL-FORK-green)](https://replit.com/github/uwuv3/selfbot-turkish)
 # [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/uwuv3/selfbot-turkish)
 
-## Nodejs ile
+## Nodejs
 # <img alt="node-current" src="https://img.shields.io/node/v/discord.js-selfbot-v13?style=plastic">
